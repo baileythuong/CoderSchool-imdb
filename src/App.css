@@ -5,3 +5,8 @@ padding-bottom: 8em;
 body {
 font-family: 'Raleway', sans-serif;
 }
+
+.carousel-caption {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}

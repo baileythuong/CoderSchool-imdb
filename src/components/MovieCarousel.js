@@ -22,7 +22,7 @@ export default function MovieCarousel(props) {
                   src={`https://image.tmdb.org/t/p/w1066_and_h600_bestv2/${item.backdrop_path}`}
                   alt="First slide"
                 ></img>
-                <h2 className="carousel-captain card-img-overlay text-light">{`${item.title}`}</h2>
+                <h2 className="display-4 carousel-caption text-light">{`${item.title}`}</h2>
               </div>
             );
           })}    
