@@ -88,7 +88,7 @@ function App() {
 
       <section>
         <div className="jumbotron-fluid">
-          <h2 className="display-5 pl-2 pt-5 text-left">IN THEATERS</h2>
+          <h2 className="display-5 pl-2 text-left">IN THEATERS</h2>
         <MovieCarousel trendingMovies={trendingMovies}/> 
         </div>
       </section>

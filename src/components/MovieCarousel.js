@@ -8,8 +8,7 @@ export default function MovieCarousel(props) {
       id="carouselExampleControls"
       className="carousel slide"
       data-ride="carousel"
-    >
-    
+    >    
       <div className="carousel-inner">
         {props.trendingMovies &&
           props.trendingMovies.map((item, i) => {
@@ -22,7 +21,7 @@ export default function MovieCarousel(props) {
                   src={`https://image.tmdb.org/t/p/w1066_and_h600_bestv2/${item.backdrop_path}`}
                   alt="First slide"
                 ></img>
-                <h2 className="display-4 carousel-caption text-light">{`${item.title}`}</h2>
+                <h2 className="display-4 carousel-caption text-light">{`${item.original_title}`}</h2>
               </div>
             );
           })}    
